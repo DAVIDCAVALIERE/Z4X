@@ -1,0 +1,44 @@
+.contenedor {
+  background-color: #999;
+  border-radius: 10px;
+  margin: 20px auto; /* Centra horizontalmente */
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra el contenido verticalmente */
+  flex-direction: column; /* Asegura que el formulario se mantenga en columna */
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: solid 1px grey;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+textarea:focus, input:focus{
+    background-color: rgb(195, 50, 50)
+}
+
+input[type="submit"] {
+  width: 25%;
+  background-color: brown;
+  color: white;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="submit"]:hover{
+    background-color: darkred;
+}

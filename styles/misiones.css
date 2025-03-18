@@ -1,0 +1,32 @@
+h2{
+    margin: 15px;
+    padding: 0;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: solid 2px grey;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: rgb(197, 197, 197);
+}
+
+th{
+    border: solid 1px grey;
+    padding: 10px;
+    background-color: rgb(110, 110, 110);
+}
+
+td{
+    border: solid 1px grey;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: grey;
+}
